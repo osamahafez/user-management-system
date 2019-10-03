@@ -1,6 +1,6 @@
-# Online Store
+# User Management System 
 
-Vue js app with laravel backend
+Laravel project to apply CRUD functionalities on users.
 
 ## Getting Started
 
@@ -13,9 +13,8 @@ Vue js app with laravel backend
 7. Generate the database tables using `` php artisan migrate `` 
 8. Run `` php storage:link `` to connect public folder to storage folder
 9. **Important**: 
-- Generate Admin using `` db:seed ``
-- email: "admin@admin.com"
-- password: "password"
+Generate Admin using `` db:seed ``
+email: "admin@admin.com", password: "password"
 10. Run `` php artisan serve `` to open the project
 
 ## Information About The Project
