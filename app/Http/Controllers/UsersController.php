@@ -21,8 +21,6 @@ class UsersController extends Controller
         if(Auth::user()->admin) {
             $users = DB::table('users')
                         ->where('admin', '=', 0)
-                        // ->join('roles', 'users.id', '=', 'roles.user_id')
-                        // ->select('users.*', 'roles.role', 'roles.permission')
                         ->orderBy('created_at', 'DESC')
                         ->paginate(20);
 

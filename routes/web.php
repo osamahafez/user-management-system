@@ -12,35 +12,9 @@
 */
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 
 Auth::routes();
 
-// Route::group(['middleware' => ['web', 'auth']], function(){
-    
-//     Route::get('/home', function() {
-
-//         if(Auth::user()->admin == 0) {
-//             return view('home');
-//         }
-//         else {
-//             return redirect('/admin-panel');
-//         }
-//     });
-
-//     Route::get('/admin-panel', function() {
-
-//         if(Auth::user()->admin == 1) {
-//             return view('adminPanel');
-//         }
-//         else {
-//             return redirect('/home');
-//         }
-//     });
-// });
 
 Route::get('/', 'LandingController@index');
 Route::get('/home', 'HomeController@index')->middleware(['web','auth']);
