@@ -1,0 +1,13 @@
+.heading-custom {
+    margin-top: 50px;
+}
+
+.profile_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user-info p {
+    font-size: 20px;
+}
