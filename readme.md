@@ -12,12 +12,12 @@ Laravel project to apply CRUD functionalities on users.
 6. Generate app encryption key using `` php artisan key:generate ``
 7. Generate the database tables using `` php artisan migrate `` 
 8. Run `` php storage:link `` to connect public folder to storage folder
-9. **Important**: 
-Generate Admin using `` db:seed ``
+9. **Important**: \
+Generate Admin using `` db:seed `` \
 email: "admin@admin.com", password: "password"
 10. Run `` php artisan serve `` to open the project
 
-## Information About The Project
+## Features About The Project
 
 - Has Multiple Authentication, Admin Authentication and User Authentication
 
